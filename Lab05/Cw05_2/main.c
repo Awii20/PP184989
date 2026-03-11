@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-int a = 10; // a =10 , b =0 , c =0
-int b = 5; // a =10 , b =5 , c =0
+int a = 10; // a =10 , b = , c =
+int b = 5; // a =10 , b =5 , c =
 int c = 0; // a =10 , b =5 , c =0
 a = a + b; // a =15 , b =5 , c =0
 b = a - b; // a =15 , b =10 , c =0

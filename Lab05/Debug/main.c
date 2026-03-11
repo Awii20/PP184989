@@ -3,7 +3,7 @@
 //Cw05_1
 
 int main() {
-int a = 10;   // a = 10, b = 0
+int a = 10;   // a = 10, b =
 int b = 5;    // a = 10, b = 5
 a = a + b;    // a = 15, b = 5
 b = a - b;    // a = 15, b = 10

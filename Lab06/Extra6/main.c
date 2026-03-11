@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a = 16; // a =16 , b =0
+    int a = 16; // a =16 , b =
     int b = 7;  // a =16 , b =7
     a = a + b;  // a =23 , b =7
     b = a & b;  // a =23 , b =7
