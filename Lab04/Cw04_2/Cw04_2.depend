@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1773086641 source:c:\pp184989\lab04\cw04_2\main.c
+	<stdio.h>
+	<stdlib.h>
+
