@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int countFunctionCalls(){
+void countFunctionCalls(){
     static int wywolanie=0;
     wywolanie++;
     printf("Funkcja zostala wywolana %d razy\n", wywolanie);

@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int cmpStrNew(char *txt1, char *txt2){
-    for(int i = 0; txt1[i]!='\0'; i++){
-        if(txt1[i] != txt2[i]){
+int cmpStrNew(char *txt1, char *txt2) {
+    for (int i = 0; ; i++) {
+        if (txt1[i] != txt2[i]) {
             return 0;
         }
-        return 1;
+        if (txt1[i] == '\0') {
+            return 1;
+        }
     }
 }
 

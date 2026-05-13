@@ -5,13 +5,13 @@ int main(){
     int r;
     printf("Wpisz reszte do wydania:\n");
     scanf("%d", &r);
-    int a=1;
-    while (r-5> a*5){
+    int a=0;
+    while (r-5>= a*5){
         a++;
     }
     r = r-a*5;
-    int b=1;
-    while (r-2 > b*2){
+    int b=0;
+    while (r-2 >= b*2){
         b++;
     }
     r = r-b*2;
